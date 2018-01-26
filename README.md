@@ -11,7 +11,7 @@ You can use different haarcascade files for different tasks. Here is the link to
 https://github.com/opencv/opencv/tree/master/data/haarcascades
 
 ## face_data.py
-`` face_data.py`` is created to store the data points and features of face in front of the webcam. Image from the webcam acts as input which is in RGB format. This input is converted into grayscale images so that processing takes less time. This data is stored in ``.npy`` format. This data is stored 20 lines or till the user presses ``Esc`` key.
+`` face_data.py`` is created to store the data points and features of face in front of the webcam. Image from the webcam acts as input which is in RGB format. This input is converted into grayscale images so that processing takes less time. This data is stored in ``.npy`` format. This data is stored for 20 lines or till the user presses ``Esc`` key.
 
 
 ## face_reco.py
