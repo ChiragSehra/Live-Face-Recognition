@@ -1,6 +1,7 @@
 # Live Face Recognition Using K nearest neighbors
 For Face recognition, K nearest neighbors is used.
-Find more for kNN algorithm here : https://medium.com/@chiragsehra42/k-nearest-neighbors-explained-easily-c26706aa5c7f
+Find more for kNN algorithm here : 
+(https://medium.com/@chiragsehra42/k-nearest-neighbors-explained-easily-c26706aa5c7f)
 
 
 ## Haarcascades:
@@ -8,7 +9,7 @@ Haar-like features are digital image features used in object recognition. They o
 A simple rectangular Haar-like feature can be defined as the difference of the sum of pixels of areas inside the rectangle, which can be at any position and scale within the original image. This modified feature set is called 2-rectangle feature. There is also defined 3-rectangle features and 4-rectangle features. The values indicate certain characteristics of a particular area of the image. Each feature type can indicate the existence (or absence) of certain characteristics in the image, such as edges or changes in texture. For example, a 2-rectangle feature can indicate where the border lies between a dark region and a light region.
 
 You can use different haarcascade files for different tasks. Here is the link to github repository:
-https://github.com/opencv/opencv/tree/master/data/haarcascades
+(https://github.com/opencv/opencv/tree/master/data/haarcascades)
 
 ## face_data.py
 `` face_data.py`` is created to store the data points and features of face in front of the webcam. Image from the webcam acts as input which is in RGB format. This input is converted into grayscale images so that processing takes less time. This data is stored in ``.npy`` format. This data is stored for 20 lines or till the user presses ``Esc`` key.
