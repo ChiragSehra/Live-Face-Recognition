@@ -9,7 +9,7 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 
 f_01 = np.load('face_01.npy').reshape((20, -1))
 f_02 = np.load('face_02.npy').reshape((20, -1))
-f#_03 = np.load('face_03.npy').reshape((20, -1))
+# f_03 = np.load('face_03.npy').reshape((20, -1))
 
 data = np.concatenate((f_01, f_02, f_03))
 labels =  np.zeros((data.shape[0],))
