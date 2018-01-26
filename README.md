@@ -1,7 +1,30 @@
 # Live Face Recognition Using K nearest neighbors
+For Face recognition, K nearest neighbors is used.
+Find more for kNN algorithm here : https://medium.com/@chiragsehra42/k-nearest-neighbors-explained-easily-c26706aa5c7f
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Direct Use
-For implemenntation download the repository and run`` face_data.py``. This will store the face information as ``face_00.npy``. To store the next face change the save command by renaming it as ``face_01``.
+For implementation download the repository and run`` face_data.py``. This will store the face information as ``face_00.npy``. To store the next face change the save command by renaming it as ``face_01``.
 
 Repeat the same process for the number of faces you want to store. 
 For corresponding face_data files, load corresponding face_data to the ``face_reco.py`` file.
