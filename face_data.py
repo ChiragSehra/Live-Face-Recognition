@@ -34,3 +34,4 @@ data = np.asarray(data)
 
 print data.shape
 np.save('face_00', data)
+# save more faces by changing the number as 01,02 etc.
