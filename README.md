@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+# Live Face Recognition Using K nearest neighbors
 
-You can use the [editor on GitHub](https://github.com/ChiragSehra/Live-Face-Recognition/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Direct Use
+For implemenntation download the repository and run`` face_data.py``. This will store the face information as ``face_00.npy``. To store the next face change the save command by renaming it as ``face_01``.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Repeat the same process for the number of faces you want to store. 
+For corresponding face_data files, load corresponding face_data to the ``face_reco.py`` file.
 
-### Markdown
+For the corresponding face information add names to be displayed in the ``names`` dictionary in ``face_reco.py``
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ChiragSehra/Live-Face-Recognition/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Finally, open terminal or command prompt and enter ``python face_reco.py``.
